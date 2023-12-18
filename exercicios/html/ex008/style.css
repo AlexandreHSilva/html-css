@@ -1,0 +1,15 @@
+mark {
+    color: yellow;
+    background-color: black;
+}
+h2 {
+    color: red;
+    background-color: yellowgreen;
+}
+body{
+    background-color: aqua;
+}
+p{
+    font-size: 15pt;
+    font-family: Arial;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+ @font-face{
+    font-family:'Love' ;
+    src: url('love\ larry\ ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+
+    font-size: 1.1em;
+}
+h1{
+    font-family: 'Fredericka the Great', serif;
+    font-size: 3em;
+    font-weight: normal;
+
+}
+h2{
+    font-family: 'Fredericka the Great', serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+.p1{
+    font-family: 'love','Courier New', Courier, serif;
+    font-size: normal;
+    font-weight: normal;
+}
+.p2{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{ 
+            
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            color: white;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.404);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px;
+            display: none
+            ;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        nav:hover > a{
+            display: inline;
+        }
+        main{
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+         h2 > p {
+            text-align: justify;
+        }
+        article{
+            background-color: lightgray;
+
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 4px;
+        }
+        #bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin:20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            Links
+
+                 <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+                 <a href="#">Link 4</a>
+                 <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>
+                Esportes Política Tecnologia
+            </p>
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae enim laudantium perspiciatis corporis itaque ipsam voluptatum ipsum soluta aliquid quisquam laboriosam, illum doloremque quaerat officiis adipisci repudiandae culpa nihil dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam vel nemo atque minima. Porro, autem magnam repellat placeat harum vel quisquam pariatur architecto, corporis nemo vero, sed earum veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit autem? Iusto eveniet quisquam, fugit quam labore ex distinctio soluta tempore incidunt dolorem adipisci aliquid, dolor illum libero voluptatibus recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quidem, distinctio suscipit nesciunt facere saepe blanditiis ratione autem explicabo aspernatur culpa praesentium. Illo delectus repudiandae distinctio, minima quis alias ullam?
+                </p>
+                     <aside>
+                        <p>
+                            Artigo escrito por Gustavo Guanabara
+                        </p>
+                     </aside>
+            </article>
+        </section>
+    </main>       
+            <footer>
+                <p>
+                    Desenvolvido pelo CursoemVideo
+                </p>
+            </footer>
+            <div id="bola">
+
+            </div>
+</body>
+</html>

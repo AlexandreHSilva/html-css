@@ -1,6 +1,9 @@
 # html-css
- repositorio estudos
+ Repositorio estudos:
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios !
 
- <a href="https://alexandrehsilva.github.io/html-css/exercicios/html/ex001/">Executar o exercício 001</a>
+ <a href="https://github.com/AlexandreHSilva/html-css">Exercícios HTML/CSS</a>
+
+ 
+Seguindo as aulas do GRANDE : <a href="https://github.com/gustavoguanabara">Professor Guanabara</a>
